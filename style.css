@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+}
+
+:root {
+    --fonte01:'outfit', Arial, Helvetica, sans-serif;
+    --fonte02: 'young-serif', Arial, Helvetica, sans-serif;
+    --cor-letra1: #5e5653;
+    --cor-letra2: #5f233c;
+    --cor-fundo01: #f3e5d8;
+    --cor-fundo02: #fde2f485;
+    --cor-titulo: #885b48;
+    
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor-fundo01);
+    padding: 10px;
+}
+
+main {
+    font-family: var(--fonte01);
+    color: var(--cor-letra1);
+    background-color: white;
+    font-weight: normal;
+    min-width: 300px;
+    max-width: 700px;
+    padding: 20px;
+    padding-top: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+main h1 {
+    color: black;
+    font-family: var(--fonte02);
+    padding: 20px 0px 0px 0px;
+}
+
+main p {
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+main h2 {
+    font-family: var(--fonte02);
+    color: var(--cor-titulo);
+    font-weight: normal;
+    padding: 10px 0px;
+}
+
+main aside {
+    background-color: var(--cor-fundo02);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside h3 {
+    color: var(--cor-letra2);
+}
+
+main li {
+    text-align: justify;
+    padding: 5px;
+}
+
